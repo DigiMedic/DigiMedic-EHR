@@ -6,7 +6,7 @@
 
 **DigiMedic EHR** je pokročilý systém elektronických zdravotních záznamů (EHR) navržený speciálně pro český zdravotní sektor. Naše platforma nabízí komplexní sadu funkcí zaměřených na zlepšení efektivity, bezpečnosti a interoperability správy pacientských dat. DigiMedic EHR má potenciál transformovat poskytování zdravotní péče prostřednictvím nejmodernějších technologií a zajišťuje soulad s národními i evropskými standardy.
 
-[![Digitální páteř](https://i.ibb.co/BBxfMxG/digitalni-pater.png)](https://www.digimedic.cz/)
+[![Digitální páteř]([https://i.ibb.co/BBxfMxG/digitalni-pater.png](https://i.ibb.co/Khd3dk6/pater.png))](https://www.digimedic.cz/)
 
 ---
 
