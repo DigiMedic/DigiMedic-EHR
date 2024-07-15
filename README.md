@@ -36,48 +36,48 @@ Vytvořit plnohodnotnou komplexní platformu pro správu soukromé ordinace nebo
 ### Spravování ordinace a zdravotnických zařízení
 
 - **Profesionální web a e-mail:**
-    - Uživatelské rozhraní webových stránek a e-mailového systému.
-    - Integrace s EHR pro zabezpečení toku dat.
-    - Šifrování dat a ochrana proti kybernetickým útokům.
-    - Přizpůsobení dle potřeb lékaře.
+  - Uživatelské rozhraní webových stránek a e-mailového systému.
+  - Integrace s EHR pro zabezpečení toku dat.
+  - Šifrování dat a ochrana proti kybernetickým útokům.
+  - Přizpůsobení dle potřeb lékaře.
 
 - **Online rezervační systém:**
-    - Uživatelské rozhraní rezervačního systému a možnosti integrace s EHR.
-    - Propojení s kalendářem lékaře pro zajištění dostupnosti termínů.
-    - Automatické připomínky pacientům o termínech návštěv.
-    - Možnost on-line platby za služby.
+  - Uživatelské rozhraní rezervačního systému a možnosti integrace s EHR.
+  - Propojení s kalendářem lékaře pro zajištění dostupnosti termínů.
+  - Automatické připomínky pacientům o termínach návštěv.
+  - Možnost on-line platby za služby.
 
 - **Uživatelské účty:**
-    - Typy uživatelských účtů (lékaři, sestry, administrativní pracovníci) a nastavení práv a rolí.
-    - Správa přístupových práv pro různé typy uživatelů.
-    - Autentifikace a autorizace uživatelů.
+  - Typy uživatelských účtů (lékaři, sestry, administrativní pracovníci) a nastavení práv a rolí.
+  - Správa přístupových práv pro různé typy uživatelů.
+  - Autentifikace a autorizace uživatelů.
 
 - **Automatizované kampaně:**
-    - Typy kampaní (preventivní prohlídky, informační kampaně, dotazníky).
-    - Nastavení kampaní dle potřeb (cílová skupina, frekvence zasílání).
+  - Typy kampaní (preventivní prohlídky, informační kampaně, dotazníky).
+  - Nastavení kampaní dle potřeb (cílová skupina, frekvence zasílání).
 
 - **Fakturace a účetnictví:**
-    - Funkce fakturačního systému a možnosti integrace s dalšími systémy.
-    - Propojení s systémy zdravotních pojišťoven.
-    - Vykazování péče na zdravotní pojišťovny.
+  - Funkce fakturačního systému a možnosti integrace s dalšími systémy.
+  - Propojení s systémy zdravotních pojišťoven.
+  - Vykazování péče na zdravotní pojišťovny.
 
 - **Reporting a analytika:**
-    - Funkce pro analýzu dat a vytvoření reportů o aktivitách ordinace a možnosti integrace s zdravotními registry.
-    - Nastavení typů reportů a analýz dle potřeb.
-    - Export dat z EHR systému v různých formátech.
+  - Funkce pro analýzu dat a vytvoření reportů o aktivitách ordinace a možnosti integrace s zdravotními registry.
+  - Nastavení typů reportů a analýz dle potřeb.
+  - Export dat z EHR systému v různých formátech.
 
 ### Komunikace s pacienty
 
 - **Pacientský portál:**
-    - Bezpečný přístup k zdravotní kartě pacientů.
-    - Možnost kontaktovat lékaře prostřednictvím webových stránek ordinace.
-    - Informační sekce o ordinaci, lékaři a službách.
-    - Integrace s mobilní aplikací pro pacienty.
+  - Bezpečný přístup k zdravotní kartě pacientů.
+  - Možnost kontaktovat lékaře prostřednictvím webových stránek ordinace.
+  - Informační sekce o ordinaci, lékaři a službách.
+  - Integrace s mobilní aplikací pro pacienty.
 
 - **Komunikační nástroje:**
-    - Zabezpečený messaging mezi lékařem a pacientem.
-    - Videokonzultace s pacienty online.
-    - Omnichannel komunikace pro zvýšení efektivity a zjednodušení správy dat a uživatelské zkušenosti.
+  - Zabezpečený messaging mezi lékařem a pacientem.
+  - Videokonzultace s pacienty online.
+  - Omnichannel komunikace pro zvýšení efektivity a zjednodušení správy dat a uživatelské zkušenosti.
 
 ### Elektronická zdravotní dokumentace (EHR)
 
@@ -133,7 +133,5 @@ Vytvořit plnohodnotnou komplexní platformu pro správu soukromé ordinace nebo
 Při vývoji DigiMedic EHR jsme se inspirovali a částečně vycházíme z následujících platforem:
 
 - **[Medplum](https://github.com/medplum/medplum):** Open-source platforma pro správu zdravotních záznamů, která poskytuje robustní API a nástroje pro interoperabilitu. Integrujeme podobné principy pro zajištění vysoké dostupnosti a škálovatelnosti.
-
 - **[Chatwoot](https://github.com/chatwoot/chatwoot):** Open-source software pro zákaznickou podporu, který umožňuje efektivní komunikaci s klienty. Tento systém je inspirací pro naše zabezpečené komunikační nástroje mezi lékaři a pacienty.
-
-- **[Fasten Health](https://github.com/fastenhealth/fasten-onprem/):** Platforma zaměřená na bezpečnost a ochranu dat ve zdravotnictví. Implementujeme podobné bezpečnostní standardy a postupy pro zajištění souladu s GDPR a dalšími
+- **[Fasten Health](https://github.com/fastenhealth/fasten-onprem/):** Platforma zaměřená na bezpečnost a ochranu dat ve zdravotnictví. Implementujeme podobné bezpečnostní standardy a postupy pro zajištění souladu s GDPR a dalšími nařízeními.
