@@ -1,0 +1,164 @@
+# DigiMedic EHR
+
+![Cover Image](https://i.ibb.co/s5Pn6NL/DALL-E-2024-07-15-14-38-37-Create-a-wide-cover-image-for-a-digital-healthcare-themed-2-D-pixel-art-g.webp)
+
+## Úvod
+
+**DigiMedic EHR** je pokročilý systém elektronických zdravotních záznamů (EHR) navržený speciálně pro český zdravotní sektor. Naše platforma nabízí komplexní sadu funkcí zaměřených na zlepšení efektivity, bezpečnosti a interoperability správy pacientských dat. DigiMedic EHR má potenciál transformovat poskytování zdravotní péče prostřednictvím nejmodernějších technologií a zajišťuje soulad s národními i evropskými standardy.
+
+[![Digitální páteř](https://i.ibb.co/Khd3dk6/pater.png)](https://www.digimedic.cz/)
+
+---
+
+## Primární cíl
+Vytvořit plnohodnotnou komplexní platformu pro správu soukromé ordinace nebo zdravotnického zařízení v moderní době, která bude poskytovat potřebné funkce lékařům a zdravotnickému personálu. DigiMedic EHR se zaměřuje na zajištění aktuálních potřeb, jako je online komunikace a další online procesy, čímž vytváří plnohodnotnou digitální pracovní platformu pro české lékaře a zároveň vytváří infrastrukturu pro plnou interoperabilitu zdravotních dat.
+
+---
+
+## Klíčové Funkce
+
+### Základní funkce EHR systému
+
+- **Evidence pacientů:** 
+  - Základní osobní údaje (jméno, datum narození, adresa, pojišťovna)
+  - Anamnéza, alergie, léky
+- **Zpracování zdravotní dokumentace:** 
+  - Základní konzultační záznamy
+  - Diagnózy, terapie, návštěvy
+- **e-Recepty:** Integrace se systémem eReceptu
+- **On-line rezervace:** Základní rezervační systém pro pacienty s integrací s kalendářem lékaře
+- **Zabezpečený messaging:** Možnost zasílat e-maily nebo SMS zprávy pacientům
+- **Základní analytika a reporting:** Možnost vytvořit základní reporty o aktivitách v ordinaci
+- **Bezpečnost:** Šifrování dat, dvoufaktorová autentifikace
+
+### Integrace s externími systémy
+
+- **Systém eHealth (ÚZIS):** Napojení na centrální systém eHealth pro výměnu dat
+- **Systém eReceptu:** Integrace se systémem eReceptu pro zabezpečené vystavování a správu e-receptů
+
+---
+
+## Funkční Rozsah
+
+### Spravování ordinace a zdravotnických zařízení
+
+- **Profesionální web a e-mail:**
+  - Uživatelské rozhraní webových stránek a e-mailového systému
+  - Integrace s EHR pro zabezpečení toku dat
+  - Šifrování dat a ochrana proti kybernetickým útokům
+  - Přizpůsobení dle potřeb lékaře
+
+- **Online rezervační systém:**
+  - Uživatelské rozhraní rezervačního systému a možnosti integrace s EHR
+  - Propojení s kalendářem lékaře pro zajištění dostupnosti termínů
+  - Automatické připomínky pacientům o termínach návštěv
+  - Možnost on-line platby za služby
+
+- **Uživatelské účty:**
+  - Typy uživatelských účtů (lékaři, sestry, administrativní pracovníci) a nastavení práv a rolí
+  - Správa přístupových práv pro různé typy uživatelů
+  - Autentifikace a autorizace uživatelů
+
+- **Automatizované kampaně:**
+  - Typy kampaní (preventivní prohlídky, informační kampaně, dotazníky)
+  - Nastavení kampaní dle potřeb (cílová skupina, frekvence zasílání)
+
+- **Fakturace a účetnictví:**
+  - Funkce fakturačního systému a možnosti integrace s dalšími systémy
+  - Propojení s systémy zdravotních pojišťoven
+  - Vykazování péče na zdravotní pojišťovny
+
+- **Reporting a analytika:**
+  - Funkce pro analýzu dat a vytvoření reportů o aktivitách ordinace a možnosti integrace s zdravotními registry
+  - Nastavení typů reportů a analýz dle potřeb
+  - Export dat z EHR systému v různých formátech
+
+### Komunikace s pacienty
+
+- **Pacientský portál:**
+  - Bezpečný přístup k zdravotní kartě pacientů
+  - Možnost kontaktovat lékaře prostřednictvím webových stránek ordinace
+  - Informační sekce o ordinaci, lékaři a službách
+  - Integrace s mobilní aplikací pro pacienty
+
+- **Komunikační nástroje:**
+  - Zabezpečený messaging mezi lékařem a pacientem
+  - Videokonzultace s pacienty online
+  - Omnichannel komunikace pro zvýšení efektivity a zjednodušení správy dat a uživatelské zkušenosti
+
+### Elektronická zdravotní dokumentace (EHR)
+
+- **Evidence pacientů:** Správa osobních údajů, anamnézy, alergií, medikací, výsledků vyšetření a jiných zdravotních záznamů
+- **Zpracování zdravotní dokumentace:** Zaznamenávání informací z konzultací s pacienty
+- **e-Recepty a e-Žádanky:** Elektronické vystavování a správa lékařských předpisů a žádanek na vyšetření
+- **Integrace s laboratořemi a zobrazovacími centry:** Propojení s laboratorními systémy a zobrazovacími centry pro automatické sdílení výsledků vyšetření
+
+### Telemedicína
+
+- **Videokonzultace:** Online konzultace s pacienty prostřednictvím videokonzultací
+- **Vzdálené monitorování:** Sběr a analýza dat z nositelných zařízení nebo jiných monitorovacích systémů
+- **e-Monitoring:** Využití AI k sledování zdravotních parametrů a predikci potenciálních rizik
+
+---
+
+## Další Funkce pro Praktické Lékaře
+
+- **Integrace s centrálním systémem eHealth (ÚZIS):** Bezproblémové napojení na systém eHealth v České republice
+- **Podpora preventivní péče:** Funkce pro plánování a provádění preventivních prohlídek
+- **Zohlednění národních standardů:** Splnění požadavků na strukturovanou zdravotní dokumentaci a kódovací systémy
+- **Integrace s elektronickou neschopenkou (eNeschopenka):** Možnost vystavování a správy eNeschopenek
+
+---
+
+## Důvody, cíle a motivace
+
+### Důvody
+
+- Potřeba modernizace zdravotní péče v České republice
+- Nedostatečná integrace a interoperabilita existujících systémů
+- Rostoucí poptávka po digitálních řešeních v zdravotnictví
+- Nutnost zajistit vysokou úroveň bezpečnosti a ochrany dat
+
+### Cíle
+- Vytvořit pokročilý systém elektronických zdravotních záznamů (EHR) speciálně navržený pro český zdravotní sektor
+- Nabídnout komplexní sadu funkcí zaměřených na zlepšení efektivity, bezpečnosti a interoperability správy pacientských dat
+- Transformovat poskytování zdravotní péče prostřednictvím nejmodernějších technologií
+- Zajistit soulad s národními i evropskými standardy
+
+### Motivace
+
+- Zvýšení efektivity zdravotnických pracovníků a zdravotnických zařízení
+- Zlepšení kvality a dostupnosti zdravotní péče pro pacienty
+- Podpora digitální transformace zdravotnictví v České republice
+- Vytvoření infrastruktury pro plnou interoperabilitu zdravotních dat
+
+[![DigiMedic EHR](https://i.ibb.co/f2wJkWV/Digi-Medic-EHR.png)](https://linktr.ee/petrsovadina)
+
+---
+
+## Inspirace a využití existujících platforem
+
+Při vývoji DigiMedic EHR jsme se inspirovali a částečně vycházíme z následujících platforem:
+- **[Medplum](https://github.com/medplum/medplum):** Open-source platforma pro správu zdravotních záznamů, která poskytuje robustní API a nástroje pro interoperabilitu. Integrujeme podobné principy pro zajištění vysoké dostupnosti a škálovatelnosti.
+- **[Chatwoot](https://github.com/chatwoot/chatwoot):** Open-source software pro zákaznickou podporu, který umožňuje efektivní komunikaci s klienty. Tento systém je inspirací pro naše zabezpečené komunikační nástroje mezi lékaři a pacienty.
+- **[Fasten Health](https://github.com/fastenhealth/fasten-onprem/):** Platforma zaměřená na bezpečnost a ochranu dat ve zdravotnictví. Implementujeme podobné bezpečnostní standardy a postupy pro zajištění souladu s GDPR a dalšími nařízeními.
+
+---
+
+## Standards and Compliance
+
+DigiMedic EHR is designed to comply with various national and European standards to ensure interoperability, security, and data protection. Below are the key standards and compliance documents:
+
+- **[HL7 FHIR](standards/HL7_FHIR.md):** Overview and implementation of the HL7 FHIR standard for exchanging healthcare information.
+- **[HL7 CDA](standards/HL7_CDA.md):** Overview and implementation of the HL7 CDA standard for structured healthcare documents.
+- **[DICOM](standards/DICOM.md):** Overview and implementation of the DICOM standard for medical imaging data.
+- **[SSL/TLS](standards/SSL_TLS.md):** Overview and implementation of SSL/TLS protocols for secure communication.
+- **[AES-256](standards/AES_256.md):** Overview and implementation of AES-256 encryption for data security.
+- **[GDPR](standards/GDPR.md):** Overview of GDPR compliance and how DigiMedic EHR ensures data protection.
+- **[NCPeH API](standards/NCPeH_API.md):** Overview and implementation of the NCPeH API for national eHealth integration.
+- **[CMS 2.0](standards/CMS_2.0.md):** Overview and implementation of CMS 2.0 for secure data exchange in public administration.
+- **[ISO 27001](standards/ISO_27001.md):** Overview of ISO 27001 compliance and certification process.
+- **[Legislative Requirements](standards/Legislative_Requirements.md):** Overview of national legislative requirements for health services and documentation in the Czech Republic.
+
+Implementing these standards ensures that DigiMedic EHR is fully compatible and interoperable with electronic health systems in the Czech Republic and the EU.
+
