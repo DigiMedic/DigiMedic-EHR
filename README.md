@@ -11,7 +11,6 @@
 ---
 
 ## Primární cíl
-
 Vytvořit plnohodnotnou komplexní platformu pro správu soukromé ordinace nebo zdravotnického zařízení v moderní době, která bude poskytovat potřebné funkce lékařům a zdravotnickému personálu. DigiMedic EHR se zaměřuje na zajištění aktuálních potřeb, jako je online komunikace a další online procesy, čímž vytváří plnohodnotnou digitální pracovní platformu pro české lékaře a zároveň vytváří infrastrukturu pro plnou interoperabilitu zdravotních dat.
 
 ---
@@ -121,7 +120,6 @@ Vytvořit plnohodnotnou komplexní platformu pro správu soukromé ordinace nebo
 - Nutnost zajistit vysokou úroveň bezpečnosti a ochrany dat
 
 ### Cíle
-
 - Vytvořit pokročilý systém elektronických zdravotních záznamů (EHR) speciálně navržený pro český zdravotní sektor
 - Nabídnout komplexní sadu funkcí zaměřených na zlepšení efektivity, bezpečnosti a interoperability správy pacientských dat
 - Transformovat poskytování zdravotní péče prostřednictvím nejmodernějších technologií
@@ -141,7 +139,26 @@ Vytvořit plnohodnotnou komplexní platformu pro správu soukromé ordinace nebo
 ## Inspirace a využití existujících platforem
 
 Při vývoji DigiMedic EHR jsme se inspirovali a částečně vycházíme z následujících platforem:
-
 - **[Medplum](https://github.com/medplum/medplum):** Open-source platforma pro správu zdravotních záznamů, která poskytuje robustní API a nástroje pro interoperabilitu. Integrujeme podobné principy pro zajištění vysoké dostupnosti a škálovatelnosti.
 - **[Chatwoot](https://github.com/chatwoot/chatwoot):** Open-source software pro zákaznickou podporu, který umožňuje efektivní komunikaci s klienty. Tento systém je inspirací pro naše zabezpečené komunikační nástroje mezi lékaři a pacienty.
 - **[Fasten Health](https://github.com/fastenhealth/fasten-onprem/):** Platforma zaměřená na bezpečnost a ochranu dat ve zdravotnictví. Implementujeme podobné bezpečnostní standardy a postupy pro zajištění souladu s GDPR a dalšími nařízeními.
+
+---
+
+## Standardy a Shoda
+
+DigiMedic EHR je navržen tak, aby splňoval různé národní a evropské standardy, které zajišťují interoperabilitu, bezpečnost a ochranu dat. Níže jsou uvedeny klíčové standardy a dokumenty o shodě:
+
+| Logo | Název | Popis |
+|------|-------|-------|
+| ![HL7 FHIR](link_na_logo) | [HL7 FHIR](standards/HL7_FHIR.md) | Přehled a implementace standardu HL7 FHIR pro výměnu zdravotnických informací. |
+| ![HL7 CDA](link_na_logo) | [HL7 CDA](standards/HL7_CDA.md) | Přehled a implementace standardu HL7 CDA pro strukturované zdravotnické dokumenty. |
+| ![DICOM](link_na_logo) | [DICOM](standards/DICOM.md) | Přehled a implementace standardu DICOM pro lékařská zobrazovací data. |
+| ![SSL/TLS](link_na_logo) | [SSL/TLS](standards/SSL_TLS.md) | Přehled a implementace protokolů SSL/TLS pro zabezpečenou komunikaci. |
+| ![AES-256](link_na_logo) | [AES-256](standards/AES_256.md) | Přehled a implementace šifrování AES-256 pro zabezpečení dat. |
+| ![GDPR](link_na_logo) | [GDPR](standards/GDPR.md) | Přehled souladu s GDPR a jak DigiMedic EHR zajišťuje ochranu dat. |
+| ![NCPeH API](link_na_logo) | [NCPeH API](standards/NCPeH_API.md) | Přehled a implementace NCPeH API pro národní integraci eHealth. |
+| ![CMS 2.0](link_na_logo) | [CMS 2.0](standards/CMS_2.0.md) | Přehled a implementace CMS 2.0 pro bezpečnou výměnu dat ve veřejné správě. |
+| ![ISO 27001](link_na_logo) | [ISO 27001](standards/ISO_27001.md) | Přehled souladu s ISO 27001 a proces certifikace. |
+| ![Legislativní Požadavky](link_na_logo) | [Legislativní Požadavky](standards/Legislative_Requirements.md) | Přehled národních legislativních požadavků pro zdravotnické služby a dokumentaci v České republice. |
+
