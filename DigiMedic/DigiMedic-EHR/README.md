@@ -151,16 +151,14 @@ DigiMedic EHR je navržen tak, aby splňoval různé národní a evropské stand
 
 | Logo | Název | Popis |
 |------|-------|-------|
-| ![HL7 FHIR](https://www.hl7.org/fhir/images/logo-fhir-transparent.png) | **[HL7 FHIR](standards/HL7_FHIR.md)** | Přehled a implementace standardu HL7 FHIR pro výměnu zdravotnických informací. |
-| ![HL7 CDA](https://www.hl7.org/cda/images/logo-cda-transparent.png) | **[HL7 CDA](standards/HL7_CDA.md)** | Přehled a implementace standardu HL7 CDA pro strukturované zdravotnické dokumenty. |
-| ![DICOM](https://upload.wikimedia.org/wikipedia/commons/8/85/DICOM_logo.png) | **[DICOM](standards/DICOM.md)** | Přehled a implementace standardu DICOM pro lékařská zobrazovací data. |
-| ![SSL/TLS](https://upload.wikimedia.org/wikipedia/commons/9/92/TLS_Logo.png) | **[SSL/TLS](standards/SSL_TLS.md)** | Přehled a implementace protokolů SSL/TLS pro zabezpečenou komunikaci. |
-| ![AES-256](https://upload.wikimedia.org/wikipedia/commons/3/3d/AES-Logo.svg) | **[AES-256](standards/AES_256.md)** | Přehled a implementace šifrování AES-256 pro zabezpečení dat. |
-| ![GDPR](https://upload.wikimedia.org/wikipedia/commons/6/6c/European_Union_GDPR.svg) | **[GDPR](standards/GDPR.md)** | Přehled souladu s GDPR a jak DigiMedic EHR zajišťuje ochranu dat. |
-| ![NCPeH API](https://www.ehealthireland.ie/wp-content/uploads/2021/06/ncpeh-logo.png) | **[NCPeH API](standards/NCPeH_API.md)** | Přehled a implementace NCPeH API pro národní integraci eHealth. |
-| ![CMS 2.0](https://upload.wikimedia.org/wikipedia/commons/c/c1/CMS_logo.png) | **[CMS 2.0](standards/CMS_2.0.md)** | Přehled a implementace CMS 2.0 pro bezpečnou výměnu dat ve veřejné správě. |
-| ![ISO 27001](https://upload.wikimedia.org/wikipedia/commons/f/f8/ISO_IEC_27001.svg) | **[ISO 27001](standards/ISO_27001.md)** | Přehled souladu s ISO 27001 a proces certifikace. |
-| ![Legislativní Požadavky](https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Coat_of_arms_of_the_Czech_Republic.svg/1200px-Coat_of_arms_of_the_Czech_Republic.svg.png) | **[Legislativní Požadavky](standards/Legislative_Requirements.md)** | Přehled národních legislativních požadavků pro zdravotnické služby a dokumentaci v České republice. |
-
-Implementing these standards ensures that DigiMedic EHR is fully compatible and interoperable with electronic health systems in the Czech Republic and the EU.
+| ![HL7 FHIR](link_na_logo) | [HL7 FHIR](standards/HL7_FHIR.md) | Přehled a implementace standardu HL7 FHIR pro výměnu zdravotnických informací. |
+| ![HL7 CDA](link_na_logo) | [HL7 CDA](standards/HL7_CDA.md) | Přehled a implementace standardu HL7 CDA pro strukturované zdravotnické dokumenty. |
+| ![DICOM](link_na_logo) | [DICOM](standards/DICOM.md) | Přehled a implementace standardu DICOM pro lékařská zobrazovací data. |
+| ![SSL/TLS](link_na_logo) | [SSL/TLS](standards/SSL_TLS.md) | Přehled a implementace protokolů SSL/TLS pro zabezpečenou komunikaci. |
+| ![AES-256](link_na_logo) | [AES-256](standards/AES_256.md) | Přehled a implementace šifrování AES-256 pro zabezpečení dat. |
+| ![GDPR](link_na_logo) | [GDPR](standards/GDPR.md) | Přehled souladu s GDPR a jak DigiMedic EHR zajišťuje ochranu dat. |
+| ![NCPeH API](link_na_logo) | [NCPeH API](standards/NCPeH_API.md) | Přehled a implementace NCPeH API pro národní integraci eHealth. |
+| ![CMS 2.0](link_na_logo) | [CMS 2.0](standards/CMS_2.0.md) | Přehled a implementace CMS 2.0 pro bezpečnou výměnu dat ve veřejné správě. |
+| ![ISO 27001](link_na_logo) | [ISO 27001](standards/ISO_27001.md) | Přehled souladu s ISO 27001 a proces certifikace. |
+| ![Legislativní Požadavky](link_na_logo) | [Legislativní Požadavky](standards/Legislative_Requirements.md) | Přehled národních legislativních požadavků pro zdravotnické služby a dokumentaci v České republice. |
 
