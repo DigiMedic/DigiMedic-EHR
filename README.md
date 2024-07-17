@@ -162,3 +162,91 @@ DigiMedic EHR je navržen tak, aby splňoval různé národní a evropské stand
 | ![ISO 27001](link_na_logo) | [ISO 27001](standards/ISO_27001.md) | Přehled souladu s ISO 27001 a proces certifikace. |
 | ![Legislativní Požadavky](link_na_logo) | [Legislativní Požadavky](standards/Legislative_Requirements.md) | Přehled národních legislativních požadavků pro zdravotnické služby a dokumentaci v České republice. |
 
+---
+
+## Tech Stack
+
+### Frontend
+1. **Next.js**
+   - **Popis**: React framework umožňující server-side rendering a statické generování stránek.
+   - **Důvod použití**: Rychlé načítání stránek, SEO optimalizace a plynulý uživatelský zážitek.
+
+2. **React**
+   - **Popis**: JavaScript knihovna pro vytváření uživatelských rozhraní.
+   - **Důvod použití**: Interaktivní a responzivní uživatelské rozhraní.
+
+3. **shadcn/ui**
+   - **Popis**: Knihovna komponent pro React, poskytující moderní a přizpůsobitelné uživatelské rozhraní.
+   - **Důvod použití**: Moderní a flexibilní UI, které je snadno přizpůsobitelné a škálovatelné.
+
+---
+
+### Backend a databáze
+4. **Supabase**
+   - **Popis**: Open-source alternativa Firebase, poskytující real-time databáze, autentizaci a API služby.
+   - **Důvod použití**: Real-time synchronizace databází a uživatelská autentizace, klíčové pro správu pacientských záznamů a zabezpečený přístup.
+
+5. **Authentik**
+   - **Popis**: Open-source identity provider zaměřený na flexibilitu a bezpečnost, podporující různé autentizační metody a protokoly.
+   - **Důvod použití**: Poskytuje bezpečnou a efektivní autentizaci a autorizaci pro lékaře a pacienty.
+
+---
+
+### UI Development
+6. **Storybook**
+   - **Popis**: Open-source nástroj pro vývoj UI komponent v izolaci pro React, Vue a Angular. Umožňuje streamování UI vývoje, testování a dokumentace.
+   - **Důvod použití**: Vývoj a testování UI komponent v izolaci, zajištění konzistence a bezchybnosti uživatelského rozhraní.
+
+---
+
+### Version Control
+7. **GitHub**
+   - **Popis**: Platforma pro verzování a spolupráci, umožňující více vývojářům pracovat na projektech současně.
+   - **Důvod použití**: Verzování kódu a kolaborativní vývoj, zajištění integrity kódu a týmové koordinace.
+
+---
+
+### Integrace a komunikace
+1. **HL7 FHIR**
+   - **Popis**: Standard pro strukturovanou výměnu zdravotnických informací.
+   - **Důvod použití**: Zajištění konzistentní a interoperabilní výměny zdravotnických dat.
+
+2. **RESTful API**
+   - **Popis**: API pro komunikaci mezi systémem DigiMedic EHR a externími systémy.
+   - **Důvod použití**: Standardizovaná komunikace mezi různými systémy.
+
+3. **SOAP API**
+   - **Popis**: Protokol pro komunikaci s národními systémy jako eRecept.
+   - **Důvod použití**: Vyšší úroveň zabezpečení a transakčního řízení.
+
+4. **MQTT**
+   - **Popis**: Protokol pro efektivní a nepřetržitý přenos dat v reálném čase mezi zařízeními a servery.
+   - **Důvod použití**: Real-time komunikace s nositelnými zařízeními.
+
+5. **OAuth 2.0**
+   - **Popis**: Standard pro bezpečné ověřování a autorizaci přístupu k API.
+   - **Důvod použití**: Zajištění bezpečného přístupu k datům a službám.
+
+---
+
+### Implementace pro zajištění interoperability
+
+1. **Autentifikace a autorizace**
+   - **OAuth 2.0** a **Authentik**: Implementace pro správu uživatelských účtů a zabezpečený přístup.
+
+2. **Standardizace výměny dat**
+   - **HL7 FHIR** a **DICOM**: Implementace pro výměnu zdravotnických informací a lékařských zobrazovacích dat.
+
+3. **Komunikace s národními systémy**
+   - **RESTful API** a **SOAP API**: Použití pro komunikaci s eHealth a eRecept.
+
+4. **Synchronizace dat z nositelných zařízení**
+   - **RESTful API**, **MQTT** a **HL7 FHIR**: Pro přenos a zpracování dat z IOTA zařízení.
+
+5. **Bezpečnostní opatření**
+   - **TLS** a **AES-256**: Pro šifrování dat během přenosu a ukládání.
+   - **Real-time monitoring** a **centralized logging**: Pro monitorování a auditování systému.
+
+---
+
+Tento tech stack a implementační kroky zajišťují, že DigiMedic EHR bude plně interoperabilní, bezpečný a efektivní při správě a výměně zdravotních dat.
