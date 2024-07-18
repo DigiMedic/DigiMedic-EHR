@@ -223,10 +223,6 @@ DigiMedic EHR je navržen tak, aby splňoval různé národní a evropské stand
 
 Tato struktura zajišťuje, že DigiMedic EHR bude plně interoperabilní, bezpečný a efektivní při správě a výměně zdravotních dat, splňující národní a mezinárodní standardy.
 
-[![D
-
-igiMedic FHIR Backend Architecture](https://i.ibb.co/1zxH1Sz/FHIR-Backend-Architecture.png)](https://linktr.ee/petrsovadina)
-
 ---
 
 ### Diagram propojení EHR a FHIR Backend
