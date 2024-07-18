@@ -11,7 +11,7 @@
 ---
 
 ## Primární cíl
-Vytvořit plnohodnotnou komplexní platformu pro správu soukromé ordinace nebo zdravotnického zařízení v moderní době, která bude poskytovat potřebné funkce lékařům a zdravotnickému personálu. DigiMedic EHR se zaměřuje na zajištění aktuálních potřeb, jako je online komunikace a další online procesy, čímž vytváří plnohodnotnou digitální pracovní platformu pro české lékaře a zároveň vytváří infrastrukturu pro plnou interoperabilitu zdravotních dat.
+Vytvořit plnohodnotnou komplexní platformu pro správu soukromé ordinace nebo zdravotnického zařízení v moderní době, která bude poskytovat potřebné funkce lékařům a zdravotnickému personálu. DigiMedic EHR se zaměřuje na zajištění aktuálních potřeb, jako je online komunikace a další online procesy, čímž vytváří plnohodnotnou digitální pracovní platformu pro české lékaře a zároveň využívá DigiMedic FHIR Backend pro plnou interoperabilitu zdravotních dat.
 
 ---
 
@@ -139,7 +139,9 @@ Vytvořit plnohodnotnou komplexní platformu pro správu soukromé ordinace nebo
 ## Inspirace a využití existujících platforem
 
 Při vývoji DigiMedic EHR jsme se inspirovali a částečně vycházíme z následujících platforem:
-- **[Medplum](https://github.com/medplum/medplum):** Open-source platforma pro správu zdravotních záznamů, která poskytuje robustní API a nástroje pro interoperabilitu. Integrujeme podobné principy pro zajištění vysoké dostupnosti a škálovatelnosti.
+- **[Medplum](https://github.com/medplum/medplum):** Open-source platforma pro správu zdravotních záz
+
+namů, která poskytuje robustní API a nástroje pro interoperabilitu. Integrujeme podobné principy pro zajištění vysoké dostupnosti a škálovatelnosti.
 - **[Chatwoot](https://github.com/chatwoot/chatwoot):** Open-source software pro zákaznickou podporu, který umožňuje efektivní komunikaci s klienty. Tento systém je inspirací pro naše zabezpečené komunikační nástroje mezi lékaři a pacienty.
 - **[Fasten Health](https://github.com/fastenhealth/fasten-onprem/):** Platforma zaměřená na bezpečnost a ochranu dat ve zdravotnictví. Implementujeme podobné bezpečnostní standardy a postupy pro zajištění souladu s GDPR a dalšími nařízeními.
 
@@ -163,6 +165,7 @@ DigiMedic EHR je navržen tak, aby splňoval různé národní a evropské stand
 | ![Legislativní Požadavky](link_na_logo) | [Legislativní Požadavky](standards/Legislative_Requirements.md) | Přehled národních legislativních požadavků pro zdravotnické služby a dokumentaci v České republice. |
 
 ---
+
 ## Tech Stack
 
 ### Frontend
@@ -205,3 +208,55 @@ DigiMedic EHR je navržen tak, aby splňoval různé národní a evropské stand
 | **Komunikace s národními systémy** | **RESTful API** a **SOAP API**: Použití pro komunikaci s eHealth a eRecept.                     |
 | **Synchronizace dat z nositelných zařízení** | **RESTful API**, **MQTT** a **HL7 FHIR**: Pro přenos a zpracování dat z IOTA zařízení. |
 | **Bezpečnostní opatření**       | **TLS** a **AES-256**: Pro šifrování dat během přenosu a ukládání. <br> **Real-time monitoring** a **centralized logging**: Pro monitorování a auditování systému. |
+
+---
+
+## Propojení s DigiMedic FHIR Backendem
+
+**DigiMedic EHR** využívá **DigiMedic FHIR Backend** jako základní vrstvu pro interoperabilitu a bezpečnou výměnu dat. Backend zajišťuje:
+
+1. **Bezpečné API** pro přístup a manipulaci s daty pomocí standardu HL7 FHIR.
+2. **Správu identity a přístupových práv** pomocí technologie Authentik.
+3. **Real-time notifikace a aktualizace dat** pomocí mechanismu Subscriptions.
+4. **Bezpečné ukládání dat** v robustním a škálovatelném úložišti.
+5. **Integraci s národními systémy** (eHealth, eRecept) a nositelnými zařízeními pomocí standardizovaných protokolů.
+
+Tato struktura zajišťuje, že DigiMedic EHR bude plně interoperabilní, bezpečný a efektivní při správě a výměně zdravotních dat, splňující národní a mezinárodní standardy.
+
+[![D
+
+igiMedic FHIR Backend Architecture](https://i.ibb.co/1zxH1Sz/FHIR-Backend-Architecture.png)](https://linktr.ee/petrsovadina)
+
+---
+
+### Diagram propojení EHR a FHIR Backend
+
+```plaintext
+    +----------------------------------------------------+
+    |                    DigiMedic FHIR Backend          |
+    |                                                    |
+    |  +-------------------+     +-------------------+   |
+    |  |   FHIR REST API   |<----|  Identity & Access |   |
+    |  +-------------------+     +-------------------+   |
+    |          ^                           ^              |
+    |          |                           |              |
+    |  +-------------------+     +-------------------+   |
+    |  |    Subscriptions  |     |    Data Storage   |   |
+    |  +-------------------+     +-------------------+   |
+    +--------------------^-------------------------------+
+                         |
+                         v
+    +----------------------------------------------------+
+    |                    External Systems                |
+    |  +-------------------+     +-------------------+   |
+    |  |      eHealth      |     |      eRecept      |   |
+    |  +-------------------+     +-------------------+   |
+    |          ^                           ^              |
+    |          |                           |              |
+    |  +-------------------+     +-------------------+   |
+    |  |  Wearable Devices |     |     Third-Party   |   |
+    |  +-------------------+     |       Apps        |   |
+    +----------------------------------------------------+
+```
+
+Tento diagram zobrazuje hlavní komponenty DigiMedic FHIR Backend a jejich propojení s externími systémy a DigiMedic EHR.
